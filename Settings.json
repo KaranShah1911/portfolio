@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2023-10-04T19:00:00Z",
+    "latitude": 37.783333,
+    "longitude": -122.416667
+  },
+  {
+    "timestamp": "2023-10-04T19:15:00Z",
+    "latitude": 37.775000,
+    "longitude": -122.419444
+  },
+  {
+    "timestamp": "2023-10-04T19:30:00Z",
+    "latitude": 37.766667,
+    "longitude": -122.422222
+  },
+  {
+    "timestamp": "2023-10-04T19:45:00Z",
+    "latitude": 37.758333,
+    "longitude": -122.425000
+  },
+  {
+    "timestamp": "2023-10-04T20:00:00Z",
+    "latitude": 37.750000,
+    "longitude": -122.427778
+  }
+]
