@@ -71,7 +71,7 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -118,6 +118,10 @@ const technologies = [
     name: "MySQL",
     icon: mysql,
   },
+  // {
+  //   name: "Typescript",
+  //   icon: typescript,
+  // },
 ];
 
 const experiences = [
