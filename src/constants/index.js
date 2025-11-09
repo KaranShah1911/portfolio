@@ -213,15 +213,15 @@ const projects = [
       "Web3-based platform where Educators can upload their courses and students can purchase. Uses a Hybrid model to store and retreive user data.",
     tags: [
       {
-        name: "react",
+        name: "blockchain",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "web3.0",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "metamask",
         color: "pink-text-gradient",
       },
     ],
