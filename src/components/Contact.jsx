@@ -6,6 +6,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import toast from "react-hot-toast";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import { SiGeeksforgeeks } from "react-icons/si";
 
 const Contact = () => {
   const formRef = useRef();
@@ -121,6 +123,41 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        <div className='mt-8 flex flex-row gap-6 justify-center items-center'>
+          <a
+            href='https://www.linkedin.com/in/karanshah1911'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white hover:text-secondary text-[30px] transition-colors duration-300'
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href='#'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white hover:text-secondary text-[30px] transition-colors duration-300'
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href='https://github.com/KaranShah1911'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white hover:text-secondary text-[30px] transition-colors duration-300'
+          >
+            <FaGithub />
+          </a>
+          <a
+            href='#'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white hover:text-secondary text-[30px] transition-colors duration-300'
+          >
+            <SiGeeksforgeeks />
+          </a>
+        </div>
       </motion.div>
 
       <motion.div
