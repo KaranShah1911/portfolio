@@ -150,7 +150,7 @@ const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href='#'
+            href='https://www.geeksforgeeks.org/profile/karanshahi1gc'
             target='_blank'
             rel='noopener noreferrer'
             className='text-white hover:text-secondary text-[30px] transition-colors duration-300'
